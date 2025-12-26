@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DriveLine Auto Sales LLC | Used Cars in Katy TX</title>
+<meta name="description" content="Family-owned used car dealership in Katy, TX. Honest, transparent, and flexible financing. English & Spanish.">
+<style>
+body {font-family: Arial, sans-serif; margin:0; background:#f4f4f4; color:#333;}
+header {background:#111; color:#fff; padding:20px; text-align:center;}
+nav {background:#222; padding:10px; text-align:center;}
+nav a {color:#fff; margin:0 15px; text-decoration:none; font-weight:bold;}
+section {padding:30px; background:#fff; margin:20px; border-radius:8px;}
+h2 {color:#111;}
+.btn {background:#c00; color:#fff; padding:12px 20px; text-decoration:none; border-radius:5px; display:inline-block;}
+footer {background:#111; color:#fff; text-align:center; padding:15px;}
+.lang {float:right; margin-right:20px;}
+</style>
+<script>
+function toggleLang(lang){
+  document.querySelectorAll('[data-lang]').forEach(el=>{
+    el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+  });
+}
+</script>
+</head>
+
+<body onload="toggleLang('en')">
+
+<header>
+  <h1>DriveLine Auto Sales LLC</h1>
+  <p>Honest • Transparent • Family-Owned</p>
+  <div class="lang">
+    <button onclick="toggleLang('en')">EN</button>
+    <button onclick="toggleLang('es')">ES</button>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#inventory">Inventory</a>
+  <a href="#financing">Financing</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<div data-lang="en">
+<h2>About Us</h2>
+<p>
+DriveLine Auto Sales LLC is a family-owned dealership committed to bringing honesty,
+transparency, and genuine care back into the pre-owned automotive industry.
+Our mission is to reshape how our community views used car dealerships by offering
+a clean, welcoming, and positively unexpected environment that defies traditional car-buying stereotypes.
+</p>
+</div>
+
+<div data-lang="es">
+<h2>Sobre Nosotros</h2>
+<p>
+DriveLine Auto Sales LLC es un negocio familiar comprometido con la honestidad,
+la transparencia y el trato genuino. Nuestra misión es cambiar la forma en que
+nuestra comunidad ve a los concesionarios de autos usados, ofreciendo un ambiente
+limpio, acogedor y diferente a lo tradicional.
+</p>
+</div>
+</section>
+
+<section id="inventory">
+<div data-lang="en">
+<h2>Inventory</h2>
+<p>Quality pre-owned vehicles. Inventory changes daily.</p>
+<a class="btn" href="tel:8327211339">Call for Availability</a>
+</div>
+
+<div data-lang="es">
+<h2>Inventario</h2>
+<p>Vehículos usados de calidad. El inventario cambia diariamente.</p>
+<a class="btn" href="tel:8327211339">Llámanos</a>
+</div>
+</section>
+
+<section id="financing">
+<div data-lang="en">
+<h2>Financing</h2>
+<ul>
+<li>No Credit / Bad Credit</li>
+<li>First-Time Buyers</li>
+<li>Flexible Down Payments</li>
+<li>Fast Approvals</li>
+</ul>
+</div>
+
+<div data-lang="es">
+<h2>Financiamiento</h2>
+<ul>
+<li>Sin crédito / Mal crédito</li>
+<li>Compradores primerizos</li>
+<li>Enganches flexibles</li>
+<li>Aprobaciones rápidas</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<div data-lang="en">
+<h2>Contact Us</h2>
+<p><strong>Phone:</strong> <a href="tel:8327211339">832-721-1339</a></p>
+<p><strong>Address:</strong> 19144 West Little York Rd Ste I, Katy, TX 77449</p>
+<p><strong>Hours:</strong><br>
+Mon–Fri: 9am–6pm<br>
+Saturday: 9am–5pm<br>
+Sunday: Closed</p>
+</div>
+
+<div data-lang="es">
+<h2>Contacto</h2>
+<p><strong>Teléfono:</strong> <a href="tel:8327211339">832-721-1339</a></p>
+<p><strong>Dirección:</strong> 19144 West Little York Rd Ste I, Katy, TX 77449</p>
+<p><strong>Horario:</strong><br>
+Lunes–Viernes: 9am–6pm<br>
+Sábado: 9am–5pm<br>
+Domingo: Cerrado</p>
+</div>
+</section>
+
+<footer>
+© 2025 DriveLine Auto Sales LLC
+</footer>
+
+</body>
+</html>
